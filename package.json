@@ -1,0 +1,20 @@
+{
+  "v": 1,
+  "version": "0.1.0",
+  "urls": [
+    ["mpsystemd/__init__.py", "github:APIUM/micropython-systemd/mpsystemd/__init__.py"],
+    ["mpsystemd/_address.py", "github:APIUM/micropython-systemd/mpsystemd/_address.py"],
+    ["mpsystemd/_aio.py", "github:APIUM/micropython-systemd/mpsystemd/_aio.py"],
+    ["mpsystemd/_impl_cpy.py", "github:APIUM/micropython-systemd/mpsystemd/_impl_cpy.py"],
+    ["mpsystemd/_impl_mp.py", "github:APIUM/micropython-systemd/mpsystemd/_impl_mp.py"],
+    ["mpsystemd/_platform.py", "github:APIUM/micropython-systemd/mpsystemd/_platform.py"],
+    ["mpsystemd/activation.py", "github:APIUM/micropython-systemd/mpsystemd/activation.py"],
+    ["mpsystemd/daemon.py", "github:APIUM/micropython-systemd/mpsystemd/daemon.py"],
+    ["mpsystemd/errors.py", "github:APIUM/micropython-systemd/mpsystemd/errors.py"],
+    ["mpsystemd/journal.py", "github:APIUM/micropython-systemd/mpsystemd/journal.py"],
+    ["mpsystemd/signals.py", "github:APIUM/micropython-systemd/mpsystemd/signals.py"],
+    ["mpsystemd/testing.py", "github:APIUM/micropython-systemd/mpsystemd/testing.py"],
+    ["mpsystemd/util.py", "github:APIUM/micropython-systemd/mpsystemd/util.py"],
+    ["mpsystemd/watchdog.py", "github:APIUM/micropython-systemd/mpsystemd/watchdog.py"]
+  ]
+}

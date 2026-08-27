@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "micropython-systemd"
+version = "0.1.0"
+description = "systemd service integration for the MicroPython unix port and CPython, with no libsystemd"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Algy Tynan", email = "algy@tynan.io" }]
+keywords = ["systemd", "micropython", "sd_notify", "watchdog", "journal", "socket activation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: MicroPython",
+    "Topic :: System :: Boot :: Init",
+    "Topic :: System :: Logging",
+]
+
+[project.urls]
+Homepage = "https://github.com/APIUM/micropython-systemd"
+Source = "https://github.com/APIUM/micropython-systemd"
+Issues = "https://github.com/APIUM/micropython-systemd/issues"
+
+[tool.setuptools]
+packages = ["mpsystemd"]

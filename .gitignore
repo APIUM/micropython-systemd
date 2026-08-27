@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.mpy
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mplib/
